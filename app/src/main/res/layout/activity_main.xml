@@ -36,33 +36,33 @@
         tools:layout_height="150dp" />
 
     <Button
-        android:text="Button"
+        android:text="Play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="31dp"
-        android:id="@+id/button"
+        android:id="@+id/buttonPlay"
         tools:text="Play" />
 
     <Button
-        android:text="Button"
+        android:text="High Scores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
         android:id="@+id/button2"
         tools:text="High Scores"
-        android:layout_below="@+id/button"
+        android:layout_below="@+id/buttonPlay"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="Button"
+        android:text="Quit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/buttonPlay"
+        android:layout_alignStart="@+id/buttonPlay"
         tools:text="Quit" />
 </RelativeLayout>
