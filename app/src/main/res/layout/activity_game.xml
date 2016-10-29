@@ -75,4 +75,24 @@
         android:layout_alignParentEnd="true"
         android:id="@+id/buttonChoice3"
         android:textSize="40sp" />
+
+    <TextView
+        android:text="Score: 999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textScore"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+    <TextView
+        android:text="Level: 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textLevel"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:layout_alignTop="@+id/textScore"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>
